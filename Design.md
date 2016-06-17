@@ -1,6 +1,7 @@
 ## Variables      
 + step_ttg – Step Time To Go (TTG) (modular
 arithmetic needed)        
++toggle_time
 + default_program (e.g. {fill, heat, boil, drain,
 fill, rinse, drain, fill, rinse, drain, fill, rinse, drain, dry})        
 + array_length        
@@ -65,10 +66,13 @@ fill, rinse, drain, fill, rinse, drain, fill, rinse, drain, dry})       �
 + Rinse
 + 20 min timer
 
-### Finish
+### Dry
 + Open Electromagnet
 + Heat to 40 C +-10C for 2 hours
 + stop
+
+### Done
++ Wait until silk unloaded
 
  
 
