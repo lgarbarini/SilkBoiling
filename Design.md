@@ -1,7 +1,7 @@
 ## Variables      
 + step_ttg – Step Time To Go (TTG) (modular
 arithmetic needed)        
-+toggle_time
++ toggle_time
 + default_program (e.g. {fill, heat, boil, drain,
 fill, rinse, drain, fill, rinse, drain, fill, rinse, drain, dry})        
 + array_length        
@@ -21,6 +21,8 @@ fill, rinse, drain, fill, rinse, drain, fill, rinse, drain, dry})       �
 + fill_time
 + heat_time     
 + drain_time
++ boil_time
++ toggle_time
 + temp_limit
 
 ## Startup
